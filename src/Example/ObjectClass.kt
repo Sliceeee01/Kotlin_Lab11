@@ -16,15 +16,6 @@ object GameSession {
 }
 
 
-
-//fun main() {
-//    println("Программа запущена")
-//    println("Проверяем состояние, но не трогаем GameSession")
-//    println("Теперь запускаем игру")
-//    GameSession.start()
-//    println("Проверяем состояние ещё раз")
-//    println("Активна ли сессия: ${GameSession.isActive}")}
-//
 object Logger {
     var count = 0
     fun log(message: String) {
@@ -33,12 +24,6 @@ object Logger {
     }
 }
 
-fun main() {
-    Logger.log("Первое сообщение")
-    Logger.log("Второе сообщение")
-    val logger1 = Logger
-    val logger2 = Logger
-    println(logger1 === logger2)}
 
 object AppSettings {
     val version = "1.0.0"
@@ -59,19 +44,8 @@ object AppSettings {
 //    const val GREEN = "#00FF00"
 //    const val BLUE = "#0000FF"
 //}
-//fun main() {
-//    println(Colors.RED)
-//    println(Colors.GREEN)
-//    println(Colors.BLUE)
-//}
 //
-//fun main() {
-//    val handler = object {
-//        val name = "Обработчик"
-//        fun handle() {
-//            println("Обрабатываю...")
-//        }
-//    }
+
 //    println(handler.name)
 //    handler.handle()
 //}
@@ -87,7 +61,3 @@ object AppSettings {
 //    }
 //}
 //
-//fun main() {
-//    MyCar(model = "Toyota")
-//    MyCar(model = "BMW")
-//    TrafficController.carPassed()}
